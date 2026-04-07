@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial;
+}
+
+header{
+    position:fixed;
+    width:100%;
+    background:#111;
+    color:white;
+    padding:15px 50px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:30px;
+}
+
+nav a{ color:white; text-decoration:none; }
+
+.hero{
+    height:100vh;
+    background:url("https://images.unsplash.com/photo-1603349206295-dde20617a8aa") center/cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+}
+
+.section{
+    padding:100px 50px;
+    text-align:center;
+}
+
+.card-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:40px;
+}
+
+.card{
+    width:250px;
+    background:white;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
